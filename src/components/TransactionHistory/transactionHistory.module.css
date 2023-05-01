@@ -1,0 +1,38 @@
+.transactionHistory {
+    width: 85%;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+}
+
+th {
+    font-size: 20px;
+    height: 30px;
+    padding: 15px 0;
+    border-right: 1px solid #DCDCDC;
+    background-color: #7FFFD4;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+th:hover, 
+th:focus {
+    background-color: aliceblue;
+}
+
+td {
+    padding: 15px 0;
+    border-top: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    background-color: #D3D3D3;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+td:hover, td:focus {
+    background-color: aliceblue;
+}

@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.statistics {
+    width: 300px;
+    border: 1px solid #DCDCDC;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 15px 0;
+}
+
+.statlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-right: 1px solid #DCDCDC;
+}
+
+.item:last-child {
+    border-right: none;
+}
+
+.label {
+    padding-bottom: 5px;
+}
